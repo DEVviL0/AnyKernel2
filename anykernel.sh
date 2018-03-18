@@ -13,8 +13,8 @@ device.name1=tissot
 } # end properties
 
 # shell variables
-block=/dev/block/bootdevice/by-name/boot;
-is_slot_device=0;
+block=/dev/block/platform/soc/7824900.sdhci/by-name/boot;
+is_slot_device=1;
 ramdisk_compression=auto;
 
 
